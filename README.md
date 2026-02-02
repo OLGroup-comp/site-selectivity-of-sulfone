@@ -57,7 +57,7 @@ patterns in CHEMBL database. Examples of output files are located in the *Output
 
 ## Model development
 User can use our model_development.py script on the dataset.xlsx file included in datasets directory.
-To run code, users will need to modify the lines in 238, 260 and 261 (last two lines) of the
+To run code, users will need to modify the lines in 236, 271 and 272 (last two lines) of the
 model_development.py script to change the paths. Currently these lines are directed towards an 
 external user path but can be modified to fit specific user. Outcome of results can be found in a
 generated output file "output_18_04_2025.xlsx", unless user changes this name on line 238.
