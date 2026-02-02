@@ -249,8 +249,8 @@ def log_regression(x_values, excludeRows, read_file_path, write_file_path, outpu
         return write_line
 
 # initialize starting row and column for excel writer
-r=40
-c=5
+r=1
+c=1
 
 # BernoulliNB use this [226, 145, 140, 46, 231, 102, 110, 244, 135, 138, 34]
 #random use this [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
@@ -259,3 +259,4 @@ c=5
 c = log_regression([49, 251, 46, 231, 234, 226, 195, 85, 221, 110, 191], [],
                   r'C:\Users\trevi\Downloads\BernoulliNB\BernoulliNB\dataset.xlsx',
                   r'C:/Users/trevi/Downloads/BernoulliNB/BernoulliNB/', 'Log-rerun', c, r)
+
