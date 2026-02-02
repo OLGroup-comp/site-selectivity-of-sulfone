@@ -6,8 +6,8 @@ biphenyl_positions.csv
   - Each row contains information on molecular structures: SMILES representation, normalized prinicpal moments of inertia (NMPI) defined across two dimensions, and substitution patterns for
     each ring (excluding the sigma bond that connects the biphenyl system).
 
-dataset.xlsx
- - Excel file used to build our classification model. Currently includes 4 sheets but the predictive model show cased in our paper was built on the "Train ds_add" and "Validation_set_1" sheets
+logistic_regression_15_04_2025.xlsx
+ - Excel file used to build our classification model. Currently includes 4 sheets but the predictive model show cased in our paper was built on the "train ds_add_092223" and "Validation_all" sheets
  - Training sheet contains DFT computed ring-opening binary code, descriptors collected along the thiophene core atoms, descriptors based on nucleophiles used.
  - Valdiation sheet contains the same descriptors but binary code based on experimentally observed product.
 # Note to user: only a handful of descriptors were used for building the model. Please refer to README file in prinicple directory.
